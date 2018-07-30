@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  asphello:
+    image: asphello
+    build:
+      context: .
+      dockerfile: ./Dockerfile
